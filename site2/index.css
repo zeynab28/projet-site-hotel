@@ -1,0 +1,71 @@
+/* Fond du gadget de la barre de recherche */
+.recherche_p {
+	background-color: #3d3d3d;   /* Couleur de fond */
+	border-style: solid;   /* Style de la bordure  */
+	border-width: 1px;   /* Epaisseur de la bordure  */
+	border-color: #dd7700;   /* Couleur de la bordure  */
+	padding: 10px 10px 10px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+	border-radius: 10px;
+	width:400px; /* Largeur du formumaire*/
+	margin: 0 auto; /* Alignement verticale te horizontale */
+	}
+  .recherche_p:hover {       
+		z-index: 1;
+		box-shadow: 0 8px 50px rgba(#000, 0.2);
+	}
+   
+  /* Champ de saisie */
+  #searchthis #search {
+	background-color: #3d3d3d;   /* Couleur de fond 
+	border-style: solid;   /* Style de la bordure  */
+	border-width: 1px;   /* Epaisseur de la bordure  */
+	border-color: #dddddd;   /* Couleur de la bordure  */
+	padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+	width: 98.5%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
+	box-sizing: border-box;   /* Important */
+	font-family: Consolas;   /* Police du texte */
+	font-size: 12px;   /* Taille de la police du texte */
+	font-weight: normal;   /* Graisse du texte : normal =
+	normal ; bold = gras */
+	color: #cec3b4;
+	letter-spacing: 1px;   /* Espacement des caractères */
+	box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+	border-radius: 6px;
+  }
+  
+  /* Bouton valider */
+  #searchthis #search-btn {
+	background-color: #E8B960;   /* Couleur de fond */
+	border-style: solid;   /* Style de la bordure  */
+	border-width: 1px;   /* Epaisseur de la bordure  */
+	border-color: #E8B960;   /* Couleur de la bordure  */
+	padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+	width: 98.5%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
+	box-sizing: border-box;   /* Important */
+	font-family: PT sans;   /* Police du texte */
+	font-size: 13px;   /* Taille de la police du texte */
+	font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+	letter-spacing: 2px;   /* Espacement des caractères */
+	margin: 10px 0 0 0;   /* Espace autour du bouton : haut droite bas gauche  */
+	text-transform: uppercase;   /* Transforme le texte en majuscules */
+	color: #ffffff;   /* Couleur du texte */
+	border-radius: 6px;
+  }
+  
+  /* Bouton valider quand survolé par la souris */
+  #searchthis #search-btn:hover {
+	background-color: #3d3d3d;   /* Couleur de fond */
+	color: #E8B960;   /* Couleur du texte */
+	cursor: pointer;   /* Apparence du curseur comme pour un lien */
+  }
+  #search-btn { 
+  background: #FFF url(https://1.bp.blogspot.com/-gsWdmz7K9mk/Vxqfd9r3opI/AAAAAAAAJck/N8ZAvQHHB9UTFPOK8u0-8qMsq9GUJU96ACLcB/s1600/ic_search_white_24dp_1x.png) no-repeat 2px 1px;    
+  padding: 15px 15px 15px 28px;
+  }
+  
+  
+  
+  
+  
+  
+  
